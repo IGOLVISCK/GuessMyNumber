@@ -97,3 +97,11 @@
     color: var(--branco--);
     margin-left: 5%;
 }
+@media (max-width: 240px) {
+    .pontuacao {
+        width: 2rem;
+    }
+    .tentativas-texto {
+        width: 2rem;
+    }
+}
