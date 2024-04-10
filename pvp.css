@@ -1,0 +1,99 @@
+/*TEXTO PRINCIPAL*/
+.introducao-jogo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.introducao-texto {
+    color: var(--amarelo--);
+    font-size: 1rem;
+    font-family: var(--font-player);
+}
+.resultado {
+    color: var(--amarelo--);
+    font-size: 0.8rem;
+    font-family: var(--font-player);
+    margin-top: 5%;
+}
+
+/*CONTEUDO PRINCIPAL, AREA DO PLAYER*/
+.player {
+    display: flex;
+    justify-content: left;
+    margin-left: 5%;
+    margin-bottom: 10%;
+}
+/*IMAGEM DO PLAYER*/
+.img-player {
+    width: 5rem;
+    height: 5rem;
+}
+/*CONTAINER DO PLAYER, PONTOS+IMG+BOTAO+INPUT*/
+.player-container {
+    margin-top: 15%;
+    text-align: left;
+}
+/*TEXTO PLAYER, PALAVRA PLAYER1*/
+.texto-player {
+    color: var(--branco--);
+    font-family: var(--font-player);
+}
+/*INPUT DO PLAYER*/
+.input-player {
+    border: solid var(--preto--);
+    border-radius: 1.5rem;
+    height: 1.5rem;
+}
+/*BOTAO CONFIRMAR*/
+.confirmar-numero {
+    border-radius: 1.4rem;
+    height: 2rem;
+    width: 4.5rem;
+    text-align: center;
+    align-items: center;
+    background-color: var(--verde-botao--);
+}
+/*LINHA SEPARADORA*/
+.line {
+    position: absolute;
+    width: 100%;
+    height: 2px; /* Altura da linha */
+    background-color: var(--verde-botao--); /* Cor da linha */
+    top: 50%; /* Posiciona a linha no meio verticalmente */
+    left: 0;
+    
+}
+/*AREA PLAYER 2 */
+.player2 {
+    margin-top: 35%;
+}
+/*PONTUAÇÃO*/
+
+.pontuacao{
+    color: var(--branco--);
+}
+/*BOTOES*/
+.botoes {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+/*CLICK DO BOTAO*/
+.botao-click {
+    background-color: var(--amarelo--);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+/*BOTAO + PONTUACAO BOX*/
+.botao-input {
+    display: flex;
+    align-items: center;
+}
+
+/*TENTATIVAS TEXTO*/
+.tentativas-texto {
+    color: var(--branco--);
+    margin-left: 5%;
+}

@@ -1,0 +1,16 @@
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: var(--preto--);
+    opacity: 80%;
+    height: 5rem;
+}
+
+.header__texto {
+    color: var(--branco--);
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-family: "Bungee Spice", sans-serif;
+}

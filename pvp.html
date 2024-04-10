@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess my number</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <!--TITULO DA INDEX, TITULO DO GAME-->
+    <header class="header-pvp">
+        <a href="index.html" class="header__texto-pvp"> Guess My Number </a>
+    </header>
+    <main class="conteudo-pvp">
+        <section class="introducao-jogo">
+            <h2 class="introducao-texto"> ADIVINHE O NUMERO DE 1 A 100 </h2>
+            <p class="resultado"> ... </p>
+        </section>
+
+        <section class="player1 player">
+            <!--PONTUAÇÃO PLAYER 1 -->
+            <!-- <p class="pontuacao__p1 pontuacao"></p> -->
+            <div class="player1__container player-container">
+                <h2 class="texto-player1 texto-player">PLAYER 1</h2>
+                <div class="player1__box player__box">
+                    <img class="img-p1 img-player" src="playerred.png">
+                    <!--INPUT PLAYER 1 -->
+                    <input class="input-p1 input-player" type="number" id="input-p1 input-player" placeholder="Digite o numero">
+                </div>
+                <div class="botao-input botao-confirm-p1">
+                    <!--BOTAO CONFIRMAR PLAYER 1 -->
+                    <button class="confirmar-numero confirmar-numero-p1" id="confirme-p1" onclick="verificarChuteP1()">
+                        Confirmar
+                    </button>
+                    <p class="pontuacao__p1 pontuacao">Pontuação: <strong class="pontuacaoNum pontuacaoNum-p1"></strong></p>
+                    <p class="tentativas__p1 tentativas-texto">Tentativas: <strong class="tentativasNum tentativasNum-p1"></strong></p>
+                </div>
+            </div>
+        </section>
+        <div class="line"></div>
+        <section class="player2 player">
+            <!--PONTUAÇÃO PLAYER 2 -->
+            <!-- <p class="pontuacao__p2 pontuacao"></p> -->
+            <div class="player2__container player-container">
+                <h2 class="texto-player2 texto-player">PLAYER 2</h2>
+                <div class="player2__box player__box">
+                    <img class="img-p2 img-player" src="playerred.png">
+                    <!--INPUT PLAYER 1 -->
+                    <input class="input-p2 input-player" type="number" id="input-p2 input-player" placeholder="Digite o numero">
+                </div>
+                <div class="botao-input botao-confirm-p2">
+                    <!--BOTAO CONFIRMAR PLAYER 1 -->
+                    <button class="confirmar-numero confirmar-numero-p2" id="confirme-p2" onclick="verificarChuteP2()">
+                        Confirmar
+                    </button>
+                    <p class="pontuacao__p2 pontuacao">Pontuação: <strong class="pontuacaoNum pontuacaoNum-p2"></strong></p>
+                    <p class="tentativas__p2 tentativas-texto">Tentativas: <strong class="tentativasNum tentativasNum-p2"></strong></p>
+                </div>
+            </div>
+        </section>
+        <section class="botoes">
+            <button class="reiniciar-jogo botao-click" onclick="restartGame()" disabled id="restartGame"> Reiniciar Numero </button>
+        </section>
+    </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

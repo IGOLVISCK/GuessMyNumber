@@ -1,0 +1,30 @@
+@import url(conteudoindex.css);
+@import url(header-index.css);
+@import url(header-pvp.css);
+@import url(pvp.css);
+/*FONTE DO HEADER*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+/*FONTE PLAYER TEXTO*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
+
+:root {
+    --preto--: black;
+    --branco--: white;
+    --degrade-background--: linear-gradient(90deg, rgba(2,0,36,1) 14%, rgba(9,9,121,0.9206057422969187) 72%, rgba(0,212,255,1) 98%);
+    --verde-botao--: #10DB07;
+    --amarelo--: yellow;
+
+    --font-header--: "Bungee Spice", sans-serif;
+    --font-player: "Source Code Pro", monospace;
+}
+
+body {
+    background: rgb(2,0,36);
+    background: var(--degrade-background--);
+    background-size: 150%;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+}

@@ -1,0 +1,21 @@
+/*CONTEUDO PRINCIPAL/GLOBAL, MAIN*/
+.conteudo {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+/*TEXTO MODOS DISPONIVEIS*/
+.modos-disponives__texto {
+    color: var(--branco--);
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+}
+
+/*IMAGEM PVP, BOTAO PVP*/
+.imgpvp {
+    width: 11rem;
+    height: 11rem;
+}
