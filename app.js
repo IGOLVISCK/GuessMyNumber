@@ -4,11 +4,11 @@ console.log(numeroAleatorio);
 
 //pontuacoes dos players inicial
 let pontuacaoPlayer1 = 0;
-let pontuacaoPlayer2 = 4;
+let pontuacaoPlayer2 = 0;
 
 //tentativas dos player
-let tentativaP1 = 4;
-let tentativaP2 = 5;
+let tentativaP1 = 3;
+let tentativaP2 = 3;
 let tentativaGlobal = tentativaP1+tentativaP2;
 
 
@@ -132,10 +132,10 @@ function limparCampoP2() {
 function restartGame(){
     numeroAleatorio = gerarNumero();
     console.log(numeroAleatorio);
-    exibirTexto('.tentativasNum-p1', 4);
-    exibirTexto('.tentativasNum-p2', 4);
-    tentativaP1 = 4;
-    tentativaP2 = 4;
+    exibirTexto('.tentativasNum-p1', 3);
+    exibirTexto('.tentativasNum-p2', 3);
+    tentativaP1 = 3;
+    tentativaP2 = 3;
     exibirTexto('.resultado', '...');
     document.getElementById('restartGame').setAttribute('disabled', 'disabled');
     document.getElementById('confirme-p1').removeAttribute('disabled');
