@@ -95,7 +95,7 @@
 /*TENTATIVAS TEXTO*/
 .tentativas-texto {
     color: var(--branco--);
-    margin-left: 5%;
+    margin-left: 15%;
 }
 @media (max-width: 240px) {
     .pontuacao {
